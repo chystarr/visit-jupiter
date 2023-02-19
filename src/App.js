@@ -1,23 +1,51 @@
-import logo from './logo.svg';
 import './App.css';
+
+import HomePage from './pages/HomePage';
+import Attractions from './pages/Attractions';
+import History from './pages/History';
+import Visit from './pages/Visit';
+
+import { Routes, Route, Outlet, Link } from 'react-router-dom';
+
+function Layout () {
+  return (
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="attractions">Attractions</Link>
+          </li>
+          <li>
+            <Link to="history">History</Link>
+          </li>
+          <li>
+            <Link to="visit">Visit</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <hr />
+      <Outlet />
+    </div>
+  );
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Project 1: Web app advertising Jupiter</h1>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="attractions" element={<Attractions />} />
+          <Route path="history" element={<History />} />
+          <Route path="visit" element={<Visit />} />
+          <Route path="*" element={<HomePage />} />
+        </Route>
+      </Routes>
     </div>
   );
 }
