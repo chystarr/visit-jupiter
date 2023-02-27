@@ -3,9 +3,9 @@ import React from "react";
 function HomePage() {
     return (
         <div>
-            This is the home page
+            <p>This is the home page</p>
         </div>
-    )
+    );
 }
 
 export default HomePage;

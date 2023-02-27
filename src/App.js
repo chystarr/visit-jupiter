@@ -1,9 +1,9 @@
 import './App.css';
 
-import HomePage from './pages/HomePage';
-import Attractions from './pages/Attractions';
-import History from './pages/History';
-import Visit from './pages/Visit';
+import HomePage from './components/HomePage';
+import Attractions from './components/Attractions';
+import History from './components/History';
+import Visit from './components/Visit';
 
 import { Routes, Route, Outlet, Link } from 'react-router-dom';
 

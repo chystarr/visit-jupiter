@@ -1,11 +1,14 @@
 import React from "react";
 
+import Info from "./Info";
+
 function Attractions() {
     return (
         <div>
-            This is the attractions page
+            <p>This is the attractions page</p>
+            <Info />
         </div>
-    )
+    );
 }
 
 export default Attractions;

@@ -1,9 +1,12 @@
 import React from "react";
 
+import Info from "./Info";
+
 function History() {
     return (
         <div>
-            This is the history page
+            <p>This is the history page</p>
+            <Info />
         </div>
     )
 }
