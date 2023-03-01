@@ -1,11 +1,11 @@
 import React from "react";
 
-function Info({image}) {
+function Info({image, header, text}) {
   return (
     <div>
       <img src={image} alt="placeholder" />
-      <h2>Info component header</h2>
-      <p>This is an info component</p>
+      <h2>{header}</h2>
+      <p>{text}</p>
     </div>
   );
 }
