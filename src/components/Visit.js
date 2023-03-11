@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./css/Attractions.css";
+import "./css/Visit.css";
 import InfoCard from "./InfoCard";
 import placeholder from "./img/placeholder.jpg";
 
@@ -9,7 +9,7 @@ function Visit() {
   const text = "Some information about Jupiter. It's a planet in outer space. It's a gas planet. Some information about Jupiter. It's a planet in outer space. It's a gas planet. Some information about Jupiter. It's a planet in outer space. It's a gas planet. Some information about Jupiter. It's a planet in outer space. It's a gas planet.";
 
   return (
-    <div>
+    <div className="visit-page">
       <InfoCard image={placeholder} header={header} text={text}/>
       <InfoCard image={placeholder} header={header} text={text}/>
       <InfoCard image={placeholder} header={header} text={text}/>
