@@ -3,11 +3,14 @@
   justify-items: center;
   align-items: center;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   align-content: stretch;
+  height: calc(100vh - 76px);
+  background-color: #ece6d7;
 }
 
 .visit-page .info-card {
-  background-color: plum;
+  background-color: #edb970;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
@@ -15,21 +18,22 @@
   height: 35em;
   width: 30em;
   margin: 3em;
-  border-radius: 2em;
+  border-radius: 2em / 5em;
   padding: 1em;
 }
 
 .visit-page .info-card img {
-  object-fit: contain;
-  height: 10em;
-  width: 10em;
+  height: 18em;
   grid-row: 2 / 4;
 }
 
 .visit-page .info-card h2 {
+  font-size: x-large;
   grid-row: 1 / 2;
 }
 
 .visit-page .info-card p {
+  font-size: large;
   grid-row: 4 / 5;
+  margin: 1em;
 }
