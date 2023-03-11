@@ -17,7 +17,6 @@ function Attractions() {
       <InfoCard image={greateRedSpot} header={headers[0]} text={descriptions[0]}/>
       <InfoCard image={northPole} header={headers[1]} text={descriptions[1]}/>
       <InfoCard image={europa} header={headers[2]} text={descriptions[2]}/>
-
     </div>
   );
 }
