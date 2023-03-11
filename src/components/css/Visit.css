@@ -4,10 +4,11 @@
   align-items: center;
   grid-template-columns: 1fr 1fr;
   align-content: stretch;
+  background-color: #ece6d7;
 }
 
 .visit-page .info-card {
-  background-color: plum;
+  background-color: #edb970;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);

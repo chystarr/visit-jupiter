@@ -4,10 +4,11 @@
   justify-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   align-content: space-between;
+  background-color: #ece6d7;
 }
 
 .history-page .info-card {
-  background-color: lightgreen;
+  background-color: #edb970;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);

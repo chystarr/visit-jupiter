@@ -1,10 +1,11 @@
 .attractions-page {
   display: grid;
   justify-items: center;
+  background-color: #ece6d7;
 }
 
 .attractions-page .info-card {
-  background-color: aqua;
+  background-color: #edb970;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(6, 1fr);
