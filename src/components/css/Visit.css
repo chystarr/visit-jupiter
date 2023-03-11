@@ -3,7 +3,9 @@
   justify-items: center;
   align-items: center;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   align-content: stretch;
+  height: calc(100vh - 76px);
   background-color: #ece6d7;
 }
 
@@ -16,7 +18,7 @@
   height: 35em;
   width: 30em;
   margin: 3em;
-  border-radius: 2em;
+  border-radius: 3em;
   padding: 1em;
 }
 

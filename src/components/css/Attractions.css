@@ -1,6 +1,7 @@
 .attractions-page {
   display: grid;
   justify-items: center;
+  height: calc(1344px + 10em);
   background-color: #ece6d7;
 }
 
@@ -11,8 +12,8 @@
   grid-template-rows: repeat(6, 1fr);
   height: 25em;
   width: 55em;
-  border-radius: 5em;
-  margin: 3em;
+  border-radius: 3em;
+  margin-top: 3em;
 }
 
 .attractions-page .info-card img {
