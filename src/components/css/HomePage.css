@@ -1,0 +1,15 @@
+.home-page {
+  background-image: url("../img/big-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 76px);
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(12, 1fr)
+}
+
+h1 {
+  color: white;
+  grid-column: 7 / 11;
+  grid-row: 5 / 7;
+}
