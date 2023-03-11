@@ -1,5 +1,26 @@
-img {
+.attractions-page .info-card {
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  height: 25em;
+  width: 55em;
+}
+
+.attractions-page .info-card img {
   object-fit: contain;
-  height: 300px;
-  width: 300px;
+  height: 10em;
+  width: 10em;
+  grid-column: 2 / 4;
+  grid-row: 3 / 5;
+}
+
+.attractions-page .info-card h2 {
+  grid-column: 5 / 8;
+  grid-row: 1 / 2;
+}
+
+.attractions-page .info-card p {
+  grid-column: 5 / 8;
+  grid-row: 3 / 6;
 }

@@ -1,5 +1,24 @@
-img {
-    object-fit: contain;
-    height: 300px;
-    width: 300px;
-  }
+.history-page .info-card {
+  background-color: lightgreen;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  place-items: center;
+  height: 40em;
+  width: 30em;
+}
+
+.history-page .info-card img {
+  object-fit: contain;
+  height: 10em;
+  width: 10em;
+  grid-row: 1 / 3;
+}
+
+.history-page .info-card h2 {
+  grid-row: 3 / 4;
+}
+
+.history-page .info-card p {
+  grid-row: 4 / 7;
+}

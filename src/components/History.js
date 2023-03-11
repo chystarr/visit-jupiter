@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./css/History.css";
-import Info from "./Info";
+import InfoCard from "./InfoCard";
 import placeholder from "./img/placeholder.jpg";
 
 function History() {
@@ -9,10 +9,10 @@ function History() {
   const text = "Some information about Jupiter. It's a planet in outer space. It's a gas planet. Some information about Jupiter. It's a planet in outer space. It's a gas planet. Some information about Jupiter. It's a planet in outer space. It's a gas planet. Some information about Jupiter. It's a planet in outer space. It's a gas planet.";
 
   return (
-    <div>
-      <Info image={placeholder} header={header} text={text}/>
-      <Info image={placeholder} header={header} text={text}/>
-      <Info image={placeholder} header={header} text={text}/>
+    <div className="history-page">
+      <InfoCard image={placeholder} header={header} text={text}/>
+      <InfoCard image={placeholder} header={header} text={text}/>
+      <InfoCard image={placeholder} header={header} text={text}/>
     </div>
   );
 }
