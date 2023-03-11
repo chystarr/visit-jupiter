@@ -1,3 +1,11 @@
+.visit-page {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  align-content: stretch;
+}
+
 .visit-page .info-card {
   background-color: plum;
   display: grid;
@@ -6,6 +14,9 @@
   place-items: center;
   height: 35em;
   width: 30em;
+  margin: 3em;
+  border-radius: 2em;
+  padding: 1em;
 }
 
 .visit-page .info-card img {
