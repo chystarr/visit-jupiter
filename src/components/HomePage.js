@@ -1,9 +1,11 @@
 import React from "react";
 
+import "./css/HomePage.css";
+
 function HomePage() {
   return (
-    <div>
-      <p>This is the home page</p>
+    <div className="home-page">
+      <h1>Welcome to Jupiter!</h1>
     </div>
   );
 }
