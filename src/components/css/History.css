@@ -1,11 +1,22 @@
+.history-page {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: space-between;
+}
+
 .history-page .info-card {
   background-color: lightgreen;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);
   place-items: center;
-  height: 40em;
-  width: 30em;
+  height: 25em;
+  width: 20em;
+  margin: 3em;
+  border-radius: 2em;
+  padding: 1em;
 }
 
 .history-page .info-card img {
