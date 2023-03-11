@@ -2,7 +2,7 @@ import React from "react";
 
 function Info({image, header, text}) {
   return (
-    <div>
+    <div className="info-card">
       <img src={image} alt="placeholder" />
       <h2>{header}</h2>
       <p>{text}</p>
