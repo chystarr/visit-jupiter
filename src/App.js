@@ -13,7 +13,7 @@ function Layout () {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/"><strong>Visit Jupiter!</strong></Link>
           </li>
           <li>
             <Link to="attractions">Attractions</Link>
