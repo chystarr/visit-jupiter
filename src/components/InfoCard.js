@@ -1,6 +1,6 @@
 import React from "react";
 
-function Info({image, header, text}) {
+function InfoCard({image, header, text}) {
   return (
     <div className="info-card">
       <img src={image} alt="placeholder" />
@@ -10,4 +10,4 @@ function Info({image, header, text}) {
   );
 }
 
-export default Info;
+export default InfoCard;
