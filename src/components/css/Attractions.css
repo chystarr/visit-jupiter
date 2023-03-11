@@ -9,6 +9,8 @@
 
 .attractions-page .info-card img {
   object-fit: contain;
+  height: 300px;
+  width: 300px;
   grid-column: 2 / 4;
   grid-row: 3 / 5;
 }
