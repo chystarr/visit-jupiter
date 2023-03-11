@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./css/History.css";
-import Info from "./Info";
+import InfoCard from "./InfoCard";
 import placeholder from "./img/placeholder.jpg";
 
 function History() {
@@ -10,9 +10,9 @@ function History() {
 
   return (
     <div>
-      <Info image={placeholder} header={header} text={text}/>
-      <Info image={placeholder} header={header} text={text}/>
-      <Info image={placeholder} header={header} text={text}/>
+      <InfoCard image={placeholder} header={header} text={text}/>
+      <InfoCard image={placeholder} header={header} text={text}/>
+      <InfoCard image={placeholder} header={header} text={text}/>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./css/Attractions.css";
-import Info from "./Info";
+import InfoCard from "./InfoCard";
 import placeholder from "./img/placeholder.jpg";
 
 function Attractions() {
@@ -10,9 +10,9 @@ function Attractions() {
 
   return (
     <div>
-      <Info image={placeholder} header={header} text={text}/>
-      <Info image={placeholder} header={header} text={text}/>
-      <Info image={placeholder} header={header} text={text}/>
+      <InfoCard image={placeholder} header={header} text={text}/>
+      <InfoCard image={placeholder} header={header} text={text}/>
+      <InfoCard image={placeholder} header={header} text={text}/>
     </div>
   );
 }
